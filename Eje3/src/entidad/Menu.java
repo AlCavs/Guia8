@@ -12,7 +12,7 @@ public class Menu {
         System.out.println("---------------- M E N U ----------------");
         System.out.println("           Ingrese una opción");
         System.out.println("1 - Crear Baraja\n2 - Mezclar\n3 - Mostrar siguiente carte\n4 - Pedir Cartas\n5 - Ver cartas ya repartidas\n6 - Ver cantidad de cartas que quedan\n7 - Ver cartas que quedan en el mazo\n8 - Salir");
-        System.out.print("----------->  ");
+        System.out.print("-----------> ");
 
         var opc = Integer.parseInt(sc.next());
 
