@@ -1,6 +1,5 @@
 package entidad;
 
-import java.util.Comparator;
 import java.util.HashSet;
 
 /**
@@ -33,8 +32,6 @@ public class Voto {
     public void setVotos(HashSet<String> votos) {
         this.votos = votos;
     }
-    
-    public static Comparator<Voto> orden = (var t, var t1) -> t1.alumnito.getVotos().compareTo(t.alumnito.getVotos());
 
     @Override
     public String toString() {
